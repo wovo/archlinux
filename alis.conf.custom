@@ -39,7 +39,7 @@ KERNELS_PARAMETERS="" # eg. iommu=soft
 # config
 TIMEZONE="/usr/share/zoneinfo/Europe/Amsterdam"
 LOCALES=("en_GB.UTF-8 UTF-8")
-# LOCALE_CONF=("LANG=es_ES.UTF-8" "LANGUAGE=es_ES:es:en_GB:en")
+LOCALE_CONF=("LANG=en_GB.UTF-8" "LANGUAGE=en_GB:en")
 KEYMAP="KEYMAP=us"
 KEYLAYOUT="us"
 FONT=""
