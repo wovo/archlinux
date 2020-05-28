@@ -67,7 +67,7 @@ BOOTLOADER="grub" # (single)
 
 # desktop
 DESKTOP_ENVIRONMENT="gnome" # (single)
-DISPLAY_DRIVER="!intel !amdgpu !ati !nvidia !nvidia-lts !nvidia-dkms !nvidia-390xx !nvidia-390xx-lts !nvidia-390xx-dkms !nouveau" # (single)
+DISPLAY_DRIVER="intel !amdgpu !ati !nvidia !nvidia-lts !nvidia-dkms !nvidia-390xx !nvidia-390xx-lts !nvidia-390xx-dkms !nouveau" # (single)
 KMS="false"
 DISPLAY_DRIVER_DDX="false"
 VULKAN="false"
@@ -83,7 +83,7 @@ PACKAGES_PACMAN_SECURITY="!rsync !gnupg !keepassxc"
 PACKAGES_PACMAN_SCIENCE="!geogebra !octave"
 PACKAGES_PACMAN_OTHERS="!klavaro !tmux"
 PACKAGES_PACMAN_DEVELOPER="!jdk-openjdk python !dotnet-sdk !php !rust !go !virtualbox !docker !ansible !vagrant"
-PACKAGES_PACMAN_CUSTOM=""
+PACKAGES_PACMAN_CUSTOM="git vim arm-none-eabi-gcc arm-none-eabi-newlib arm-none-eabi-binutils"
 
 AUR="!yay !aurman"
 

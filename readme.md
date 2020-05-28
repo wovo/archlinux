@@ -14,3 +14,17 @@ This is how I use it:
 - pacman -S git
 - git clone https://github.com/wovo/archlinux
 - source archlinux/install.sh
+- give one confirmation
+- get a drink
+
+Should add:
+- git, vim
+- clone bmptk, godafoss
+- pacman arm-none-eabi-gcc, arm-none-eabi-newlib, arm-none-eabi-binutils
+- avr-gcc
+git clone https://www.github.com/shumatech/BOSSA
+cd, make bossac, copy to usr/bin
+
+
+- volatile deprecated - disable warnings?
+- that define in c8xa due
