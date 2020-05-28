@@ -19,9 +19,21 @@ This is how I use it:
 
 Should add:
 - git, vim, arm-none-eabi-gcc, arm-none-eabi-newlib, arm-none-eabi-binutils
+sudo pacman -S open-vm-tools
+sudo pacman -S xorg
+sudo pacman -S gnome
+systemctl start gdm.service
+?systemctl enable gdm.service
+?systemctl enable NetworkManager.service
+
 - clone bmptk, godafoss
 git clone https://www.github.com/shumatech/BOSSA
 cd, make bossac, copy to usr/bin
+
+random notes:
+- https://github.com/libopencm3/libopencm3
+- https://www.youmagine.com/designs/openscad-metric-nut-bolt-threads-library
+- http://www.swedencpp.se/worldwide
 
 
 - volatile deprecated - disable warnings?
