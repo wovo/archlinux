@@ -18,13 +18,12 @@ This is how I use it:
 - get a drink
 
 Should add:
-- git, vim
+- git, vim, arm-none-eabi-gcc, arm-none-eabi-newlib, arm-none-eabi-binutils
 - clone bmptk, godafoss
-- pacman arm-none-eabi-gcc, arm-none-eabi-newlib, arm-none-eabi-binutils
-- avr-gcc
 git clone https://www.github.com/shumatech/BOSSA
 cd, make bossac, copy to usr/bin
 
 
 - volatile deprecated - disable warnings?
 - that define in c8xa due
+- ref to blabla init in main
